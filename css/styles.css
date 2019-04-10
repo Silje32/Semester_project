@@ -1,0 +1,165 @@
+/*Color Palette
+#000000  - black
+#FFFFFF  - white
+#2D3037  - grey
+#D99A9A  - pink
+#FF6D05  - orange
+*/
+
+/*Color Palette Social media
+#3B5998  - Facebook
+#E12F67  - Instagram
+#FF0000  - YouTube
+#1DA1F2  - Twitter
+*/
+
+
+/*Global styles
+-------------------*/
+
+body {
+  max-width: 1024px;
+  background: black;
+  color: white;
+  font-family: Montserrat, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0 auto;
+}
+#page {
+  max-width: 1280;
+  width: 80%;
+  margin: 2px auto;
+  padding: 20px;
+  border: 4px double #000;
+  background-color:  #FF6F05;
+}
+h1 {
+  font-family: 'Playfair Display-black', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FF6D05;
+  text-align: left;
+  margin-bottom: 30px;
+}
+h2, h3 {
+  font-family: 'Playfair Display', Times, serif;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50%;
+  color: white;
+}
+.heading {
+  text-align: center;
+}
+.textWrap img {
+  float: left;
+  margin: 0 35px 35px 0px;
+}
+.container_1 {
+  display: flex;
+  height: 440px;
+  margin-bottom: 15px;
+}
+.col1 {
+  flex: 1;
+  background: #2D3037;
+  padding: 4px;
+  width: 40%;
+  margin: 4px, 4px;
+}
+.col2 {
+  flex: 1;
+  width: 60%;
+  background: #2D3037;
+  margin: 4px, 4px;
+}
+.container_2 {
+ display: flex;
+ height: 430px;
+}
+
+
+/*Header and Footer
+-------------------*/
+/*header*/
+header {
+  background: #2D3037;
+  color: white;
+  line-height: 150%;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+  width: 95%;
+  max-width: 1260px;
+  z-index: 1;
+  border-radius: 6px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 80px;
+}
+nav ul li a {
+  color: white;
+  font-family: Montserrat-semibold, Verdana, sans-serif;
+  font-weight: bold;
+}
+li {
+    display: inline;
+    margin: 0 22px;
+}
+/*footer*/
+footer {
+  background: #FF6D05;
+  color: #FFFFFF;
+  line-height: 150%;
+  border-radius: 6px;
+}
+p a {
+  color: white;
+  margin-right: 100px;
+}
+a:link{
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+}
+
+
+/* Images
+----------*/
+.exhibition {
+  width: 98%;
+  margin: 10px;
+}
+.logo {
+  width: 5%;
+}
+.museum {
+  width: 98%;
+  margin: 10px;
+}
+.kids {
+  width: 98%;
+  margin: 10px;
+}
+
+/* Media Queries
+-------------------*/
+/*mobile styles*/
+@media only screen and (max-width: 480px) {
+}
+
+/*tablet styles*/
+@media only screen and (max-width: 768px) {
+
+}
+
+/*desktop styles*/
+@media only screen and (max-width:1024px) {
+
+}
