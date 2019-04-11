@@ -87,14 +87,14 @@ header {
   background: #2D3037;
   color: white;
   line-height: 150%;
-  padding: 25px;
+  padding: 20px;
   position: sticky;
   top: 0;
   width: 95%;
   max-width: 1260px;
   z-index: 1;
   border-radius: 6px;
-  margin-top: 1px;
+  margin-top: 2px;
   margin-bottom: 2px;
   margin-left: 2px;
   margin-right: 80px;
@@ -106,7 +106,7 @@ nav ul li a {
 }
 li {
     display: inline;
-    margin: 0 22px;
+    margin: 15px 22px;
 }
 /*footer*/
 footer {
@@ -138,6 +138,7 @@ a:hover {
 }
 .logo {
   width: 5%;
+  margin: 0px 455px;
 }
 .museum {
   width: 98%;
