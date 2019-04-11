@@ -49,6 +49,15 @@ h2, h3 {
   line-height: 50%;
   color: white;
 }
+.main-heading {
+  font-family: 'Playfair Display-black', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FF6D05;
+  text-align: center;
+  margin: 0px 310px;
+  display: inline;
+}
 .heading {
   text-align: center;
 }
