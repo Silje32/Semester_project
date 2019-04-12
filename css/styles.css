@@ -62,6 +62,13 @@ h2, h3 {
   display: inline;
   margin-left: 20px;
 }
+.heading_find {
+  font-family: 'Playfair Display-black', Times, serif;
+  text-align: left;
+  display: inline;
+  margin-left: 20px;
+  color: #D99A9A;
+}
 .textWrap img {
   float: left;
   margin: 0 35px 35px 0px;
@@ -79,7 +86,7 @@ h2, h3 {
 }
 .col2 {
   flex: 1;
-  width: 50%;
+  width: 40%;
   background: #2D3037;
   margin-right: 8px;
 }
@@ -87,17 +94,28 @@ h2, h3 {
  display: flex;
  height: 430px;
 }
+.container_3 {
+ display: flex;
+ height: 200px;
+}
+.col1_follow {
+  flex: 1;
+  width: 100%;
+  background: #2D3037;
+  margin: 5px 5px;
+}
 .container_1_kids {
   display: flex;
-  height: 440px;
+  height: 600px;
   margin-bottom: 15px;
 }
 .col2_kids {
   flex: 1;
-  width: 50%;
-  height: 700px;
+  width: 45%;
   background: #2D3037;
-  margin: 2px, 2px;
+}
+.col2_kids img p a {
+  color: #D99A9A;
 }
 
 
@@ -175,6 +193,15 @@ a:hover {
 .club {
   width: 50%;
   margin: 20px 130px;
+}
+.instagram {
+  width: 10%;
+}
+.youtube {
+  width: 10%;
+}
+.snapchat {
+  width: 10%;
 }
 
 /* Media Queries
