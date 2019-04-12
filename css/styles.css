@@ -59,7 +59,9 @@ h2, h3 {
   display: inline;
 }
 .heading {
-  text-align: center;
+  text-align: left;
+  display: inline;
+  margin-left: 20px;
 }
 .textWrap img {
   float: left;
@@ -73,19 +75,30 @@ h2, h3 {
 .col1 {
   flex: 1;
   background: #2D3037;
-  padding: 4px;
   width: 40%;
-  margin: 4px, 4px;
+  margin-right: 8px;
 }
 .col2 {
   flex: 1;
-  width: 60%;
+  width: 50%;
   background: #2D3037;
-  margin: 4px, 4px;
+  margin-right: 8px;
 }
 .container_2 {
  display: flex;
  height: 430px;
+}
+.container_1_kids {
+  display: flex;
+  height: 440px;
+  margin-bottom: 15px;
+}
+.col2_kids {
+  flex: 1;
+  width: 50%;
+  height: 700px;
+  background: #2D3037;
+  margin: 2px, 2px;
 }
 
 
@@ -149,6 +162,9 @@ a:hover {
   width: 5%;
   margin: 0px 455px;
 }
+.vive {
+  width: 50%;
+}
 .museum {
   width: 98%;
   margin: 10px;
@@ -156,6 +172,10 @@ a:hover {
 .kids {
   width: 98%;
   margin: 10px;
+}
+.club {
+  width: 50%;
+  margin: 20px 130px;
 }
 
 /* Media Queries
