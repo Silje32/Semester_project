@@ -98,6 +98,25 @@ h2, h3 {
  display: flex;
  height: 200px;
 }
+.container_1_contact {
+  display: flex;
+  height: 400px;
+}
+.col1_contact {
+  flex: 1;
+  width: 80%;
+  border: solid #D99A9A;
+  background: #2D3037;
+}
+.container_1_support {
+  display: flex;
+  height: 400px;
+}
+.col1_support {
+  flex: 1;
+  width: 80%;
+  background: #2D3037;
+}
 .col1_follow {
   flex: 1;
   width: 100%;
@@ -178,9 +197,6 @@ a:hover {
 .logo {
   width: 5%;
   margin: 0px 455px;
-}
-.vive {
-  width: 50%;
 }
 .museum {
   width: 98%;
