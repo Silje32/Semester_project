@@ -758,6 +758,22 @@ button {
 }
 
 
+/* Action button */
+a.action {
+  display: inline-block;
+  width: 230px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #FF6D05;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 220px;
+  border-radius: 6px;
+}
+
+
 
 /* Media Queries
 -------------------*/
@@ -790,6 +806,22 @@ button {
   margin-left: 450px;
   border-radius: 6px;
 }
+
+/* Action button */
+a.action {
+  display: inline-block;
+  width: 230px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #FF6D05;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 220px;
+  border-radius: 6px;
+}
+
 .col3 img {
   width: 93%;
   padding: 2px;
@@ -1603,6 +1635,7 @@ nav li {
     margin: 10px 20px;
 }
 }
+
 /*desktop styles*/
 @media only screen and (min-width: 769px)  {
   .heading_find {
@@ -1667,4 +1700,19 @@ nav li {
     display: block;
     visibility: visible;
   }
+
+  /* Action button */
+  a.action {
+    display: inline-block;
+    width: 230px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #FF6D05;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 220px;
+    border-radius: 6px;
+}
 }
