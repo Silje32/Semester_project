@@ -508,7 +508,6 @@ margin-top: 50px;
 font-family: 'Playfair Display-black', Times, serif;
 font-size: 18px;
 width: 200px;
-
 }
 .top {
   color: white;
@@ -1183,9 +1182,9 @@ form div {
   flex: 3;
 }
 .top {
-    color: white;
-    margin-left: 150px;
-    margin-bottom: 50px;
+  color: white;
+  margin-left: 150px;
+  margin-bottom: 50px;
 }
 }
 
@@ -1196,23 +1195,23 @@ form div {
   .container_1_kids, .container_2_kids, .container2_contact,
   .container_1_support, .container_1_involved, .container_1_internships   {
   flex-direction: column;
-  }
-  .exhibition {
-    width: 95%;
-  }
-  .main-heading {
-    margin: 0px 10px;
-    text-align: left;
-    font-size: 14px;
-    padding: 10px;
-  }
-  .col3 img {
+}
+.exhibition {
+  width: 95%;
+}
+.main-heading {
+  margin: 0px 10px;
+  text-align: left;
+  font-size: 14px;
+  padding: 10px;
+}
+.col3 img {
     width: 96%;
     margin-top: 5px;
     padding: 6px;
     margin-left: 5px;
-  }
-  button {
+}
+button {
     width: 230px;
     text-align: center;
     font-size: 15px;
@@ -1223,11 +1222,11 @@ form div {
     margin-top: 15px;
     margin-left: 150px;
     border-radius: 6px;
-  }
+}
 
 
-  /* Action button */
-  a.action {
+/* Action button */
+a.action {
     display: inline-block;
     width: 245px;
     text-align: center;
@@ -1239,9 +1238,9 @@ form div {
     margin-top: 20px;
     margin-left: 110px;
     border-radius: 6px;
-  }
+}
 
-  header {
+header {
     background: #2D3037;
     color: white;
     line-height: 150%;
@@ -1254,50 +1253,49 @@ form div {
     border-radius: 6px;
     margin-top: 5px;
     margin-bottom: 2px;
-  }
-  .house_footer {
+}
+.house_footer {
     width: 10%;
     margin-top: 20px;
     margin-left: 15px;
-  }
-  .mobile_footer {
+}
+.mobile_footer {
     display: none;
-  }
-  .container_footer {
+}
+.container_footer {
     display: flex;
     background: #FF6D05;
     color: #FFFFFF;
     border-radius: 6px;
     width: 95%;
     margin-right: 9px;
-  }
-  .top {
+}
+.top {
     color: white;
     margin-left: 250px;
     margin-top: 5px;
-    }
-  }
-  .container_3 {
+}
+.container_3 {
    display: flex;
    width: 96%;
    margin-left: 10px;
 }
-  .facebook {
+.facebook {
   width: 8%;
   float: left;
   margin-left: 30px;
 }
-  .instagram {
+.instagram {
   width: 8%;
   float: left;
   margin-left: 30px;
 }
-  .youtube {
+.youtube {
   width: 8%;
   float: left;
   margin-left: 30px;
 }
-  .snapchat {
+.snapchat {
   width: 8%;
   float: left;
   margin-left: 30px;
@@ -1655,15 +1653,15 @@ nav li {
 
 /*desktop styles*/
 @media only screen and (min-width: 769px)  {
-  .heading_find {
+.heading_find {
     font-family: 'Playfair Display-black', Times, serif;
     text-align: left;
     float: left;
     display: inline;
     margin-left: 30px;
     color: #D99A9A;
-  }
-  .main-heading {
+}
+.main-heading {
     font-family: 'Playfair Display-black', Times, serif;
     font-weight: bold;
     font-size: 20px;
@@ -1671,38 +1669,38 @@ nav li {
     text-align: center;
     margin: 0px 310px;
     display: inline;
-  }
-  .col1_follow {
+}
+.col1_follow {
     flex: 1;
     width: 93%;
     background: white;
     margin-top: 5px;
     border-radius: 6px;
-  }
-  .facebook {
+}
+.facebook {
     width: 4%;
     float: left;
     margin-top: 15px;
     margin-left: 150px;
-  }
-  .instagram {
+}
+.instagram {
     width: 4%;
     float: left;
     margin-top: 15px;
     margin-left: 100px;
-  }
-  .youtube {
+}
+.youtube {
     width: 4%;
     float: left;
     margin-top: 15px;
     margin-left: 100px;
-  }
-  .snapchat {
+}
+.snapchat {
     width: 4%;
     float: left;
     margin-top: 15px;
     margin-left: 100px;
-  }
+}
   .container_3 {
    display: flex;
    height: 80px;
@@ -1710,16 +1708,16 @@ nav li {
    margin-top: 5px;
    margin-bottom: 5px;
    margin-left: 6px;
-  }
+}
   .map {
     margin-left: 185px;
     margin-top: 10px;
     display: block;
     visibility: visible;
-  }
+}
 
-  /* Action button */
-  a.action {
+/* Action button */
+a.action {
     display: inline-block;
     width: 230px;
     text-align: center;
