@@ -1344,9 +1344,9 @@ header {
   font-size: 15px;
 }
 .logo {
-  width: 5%;
+  width: 8%;
   float: left;
-  margin: 0px 35px;
+  margin: 0px 25px;
 }
 .col1_follow {
   flex: 1;
@@ -1459,8 +1459,7 @@ ul.footer_visit {
   margin-top: 10px;
 }
 nav {
-  width: 20%;
-  margin-top: 10px;
+  width: 10%;
 }
 .container_1 {
   display: flex;
@@ -1728,6 +1727,12 @@ nav li {
     margin-top: 10px;
     display: block;
     visibility: visible;
+}
+
+/* Image on Index page */
+.col3 img {
+  width: 93%;
+  padding: 2px;
 }
 
 /* Action button */
