@@ -26,7 +26,7 @@ function checkFullName(fullname) {
 
 //Validating that the e-mail address is correct.
 function checkEmail(email) {
-  var myEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+  var myEmail = /\S+@\S+.\S+/;
   if (email.match(myEmail)) {
      return true;
   }  else {
