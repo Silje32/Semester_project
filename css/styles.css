@@ -758,6 +758,10 @@ button {
   margin-left: 220px;
   border-radius: 6px;
 }
+.form-error {
+    color: red;
+    display: none;
+}
 
 
 /* Action button */
@@ -1762,5 +1766,9 @@ textarea {
 }
 input[type="text"] {
   width: 85%;
+}
+.form-error {
+    color: red;
+    display: none;
 }
 }
