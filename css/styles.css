@@ -17,29 +17,23 @@
 /*Global styles
 -------------------*/
 
+header, section, footer, aside, nav, article, figure, figcaption  {
+  display: block;
+}
 body {
   max-width: 1024px;
   background: black;
   color: white;
-  font-family: Montserrat, Verdana, sans-serif;
+  font-family: 'Montserrat', 'Verdana', 'sans-serif';
   font-size: 16px;
-  line-height: 150%;
   margin: 0 auto;
 }
-#page {
-  max-width: 1280;
-  width: 80%;
-  margin: 2px auto;
-  padding: 20px;
-  border: 4px double #000;
-  background-color:  #FF6F05;
-}
 h1, h2, h3, h4, h5 {
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
 }
 h1 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 40px;
   color: #FF6D05;
   text-align: left;
   margin-bottom: 30px;
@@ -56,53 +50,51 @@ h3 {
   text-align: center;
 }
 .main-heading {
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   color: #FF6D05;
   text-align: center;
-  margin: 0px 310px;
-  display: inline;
 }
 .heading {
   text-align: center;
 }
 .heading1_exhibitions {
   text-align: center;
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 40px;
   color: white;
   margin-bottom: 10px;
 }
 .heading2_exhibitions {
   text-align: center;
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 35px;
   color: white;
 }
 .heading3_exhibitions {
   text-align: center;
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 30px;
 }
 .heading4_exhibitions {
   text-align: center;
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 30px;
 }
 .heading_news {
   text-align: center;
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 30px;
   font-size: italic;
 }
 .heading_visit {
   text-align: center;
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 40px;
 }
 .heading1_visit {
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 30px;
   position: relative;
   left: 4px;
@@ -112,11 +104,11 @@ h3 {
 }
 .heading_shop {
   text-align: center;
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 30px;
 }
 .heading_times {
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 25px;
   margin-top: 80px;
   margin-left: 113px;
@@ -126,22 +118,22 @@ h3 {
   margin-left: 400px;
 }
 .heading_contact {
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 30px;
   width: 50px;
   margin-left: 20px;
 }
 .heading_find {
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   text-align: left;
   float: left;
   display: inline;
   margin-left: 30px;
-  color: #D99A9A;
+  color: #FF6D05;
 }
 .heading_involved {
   text-align: center;
-  font-family: 'Playfair Display-black', Times, serif;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 40px;
 }
 .heading_form {
@@ -159,23 +151,90 @@ h3 {
 .heading_volunteer {
   text-align: center;
 }
-.container_1 {
+
+/* Containers
+-------------------*/
+.container_1, .container_2, .container_3, .container_visit, .container_location,
+.container_shop, .container_1_support, .container_1_internships, .container1_contact,
+.container2_contact, .container_1_involved, .container_1_exhibitions, .container_2_exhibitions,
+.container_1_kids, .container_2_kids  {
   display: flex;
+}
+.container_1 {
   margin-bottom: 15px;
+}
+.container_2 {
+  margin-bottom: 10px;
+}
+.container_3 {
+  height: 80px;
+  width: 99%;
+  margin-top: 5px;
+  margin-bottom: 5px;
   margin-left: 6px;
 }
-.container_visit {
-  display: flex;
-}
 .container_location {
-  display: flex;
   margin-top: 8px;
   margin-left: 4px;
   margin-bottom: 8px;
 }
 .container_shop {
-  display: flex;
   margin-left: 5px;
+}
+.container_1_support {
+  margin: 10px 10px;
+  margin-left: 12px;
+}
+.container_1_internships {
+  margin-bottom: 10px;
+  margin: 10px 10px;
+  margin-left: 15px;
+}
+.container1_contact {
+  margin-left: 5px;
+  margin-top: 8px;
+  background: #2D3037;
+  color: #FFFFFF;
+  border: solid #D99A9A;
+}
+.container2_contact {
+  margin-left: 6px;
+}
+.container_1_involved {
+  margin: 10px 10px;
+  margin-left: 15px;
+}
+.container_1_exhibitions {
+  margin: 10px 10px;
+}
+.container_2_exhibitions {
+  margin: 10px 10px;
+}
+.container_1_kids {
+  margin: 10px 10px;
+}
+.container_2_kids {
+  margin-bottom: 15px;
+  margin: 10px 10px;
+}
+
+/* Columns
+-------------------*/
+.col1, .col2, .col3  {
+  flex: 1;
+}
+.col1 {
+  background: #D99A9A;
+  padding: 10px 10px;
+  max-width: 98%;
+}
+.col2 {
+  background: #D99A9A;
+  padding: 10px 10px;
+  max-width: 98%;
+}
+.col3 {
+  background: #2D3037;
 }
 .col1_visit {
   flex: 1;
@@ -191,67 +250,6 @@ h3 {
   margin-left: 4px;
   padding: 10px;
 }
-main section p a {
-  color: #D99A9A;
-}
-ul.times {
-  color: white;
-  font-family: Montserrat-semibold, Verdana, sans-serif;
-  width: 250px;
-  float: left;
-  margin-left: 80px;
-  margin-top: 5px;
-  padding: 15px;
-}
-ul.visit {
-  color: white;
-  font-family: Montserrat-semibold, Verdana, sans-serif;
-  width: 300px;
-  margin-left: 310px;
-  margin-bottom: 20px;
-  padding: 20px;
-  text-align: center;
-}
-.container_1_support {
-  display: flex;
-  margin: 10px 10px;
-  margin-left: 12px;
-}
-.container_1_internships {
-  display: flex;
-  margin-bottom: 10px;
-  margin: 10px 10px;
-  margin-left: 15px;
-}
-.col1 {
-  flex: 1;
-  background: #2D3037;
-  padding: 10px 10px;
-  margin-right: 8px;
-}
-.col2 {
-  flex: 1;
-  background: #2D3037;
-  margin-right: 8px;
-  padding: 10px 10px;
-}
-.col3 {
-  flex: 1;
-  background: #2D3037;
-}
-.container_2 {
- display: flex;
- margin-bottom: 10px;
- margin-left: 6px;
-}
-.container_3 {
- display: flex;
- height: 80px;
- width: 99%;
- margin-top: 5px;
- margin-bottom: 5px;
- margin-left: 6px;
-}
 .col1_food {
   flex: 1;
   background: #2D3037;
@@ -265,14 +263,6 @@ ul.visit {
   width: 40%;
   padding: 15px 15px;
   margin-right: 10px;
-}
-.container1_contact {
-  display: flex;
-  margin-left: 5px;
-  margin-top: 8px;
-  background: #2D3037;
-  color: #FFFFFF;
-  border: solid #D99A9A;
 }
 .col_1_contact {
   flex: 1;
@@ -288,10 +278,6 @@ ul.visit {
 .col_4_contact {
   flex: 4;
   margin-top: 100px;
-}
-.container2_contact {
-  display: flex;
-  margin-left: 6px;
 }
 .col_contact {
   flex: 1;
@@ -311,19 +297,6 @@ ul.visit {
   padding: 15px;
   margin-top: 15px;
   margin-left: 10px;
-}
-.container_1_involved {
-  display: flex;
-  margin: 10px 10px;
-  margin-left: 15px;
-}
-.container_1_exhibitions {
-  display: flex;
-  margin: 10px 10px;
-}
-.container_2_exhibitions {
-  display: flex;
-  margin: 10px 10px;
 }
 .col1_exhibitions {
   flex: 1;
@@ -374,14 +347,40 @@ ul.visit {
   margin-top: 5px;
   border-radius: 6px;
 }
-.container_1_kids {
-  display: flex;
-  margin: 10px 10px;
+.col1_support {
+  flex: 1;
+  background: #2D3037;
+  margin-bottom: 6px;
+  padding: 20px 20px;
 }
-.container_2_kids {
-  display: flex;
-  margin-bottom: 15px;
-  margin: 10px 10px;
+.col1_times {
+  flex: 1;
+  background: #2D3037;
+}
+.col1_involved {
+  flex: 1;
+  background: #2D3037;
+  margin-right: 8px;
+  padding: 20px 20px;
+}
+.col2_involved {
+  flex: 1;
+  background: #2D3037;
+  padding: 20px 20px;
+}
+.col1_internships {
+  flex: 1;
+  background: #2D3037;
+  margin-right: 8px;
+  margin-top: 8px;
+  padding: 10px 10px;
+}
+.col1_follow {
+  flex: 1;
+  width: 93%;
+  background: white;
+  margin-top: 5px;
+  border-radius: 6px;
 }
 .col1_kids {
   flex: 1;
@@ -396,6 +395,27 @@ ul.visit {
   padding: 10px;
   margin-left: 6px;
 }
+main section p a {
+  color: #D99A9A;
+}
+ul.times {
+  color: white;
+  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
+  width: 250px;
+  float: left;
+  margin-left: 80px;
+  margin-top: 5px;
+  padding: 15px;
+}
+ul.visit {
+  color: white;
+  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
+  width: 300px;
+  margin-left: 310px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
 .col2_kids img p a:link {
   color: #D99A9A;
 }
@@ -404,19 +424,19 @@ ul.visit {
 }
 ul.info1 {
   color: white;
-  font-family: Montserrat-semibold, Verdana, sans-serif;
+  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
   width: 250px;
   float: left;
 }
 ul.info2 {
   color: white;
-  font-family: Montserrat-semibold, Verdana, sans-serif;
+  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
   width: 300px;
   float: left;
 }
 ul.info3 {
   color: white;
-  font-family: Montserrat-semibold, Verdana, sans-serif;
+  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
   width: 300px;
   float: left;
 }
@@ -437,7 +457,11 @@ ul.info3 {
 .entrance a {
   color: #D99A9A;
 }
-
+.text {
+  max-width: 800px;
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
 
 /*Header and Footer
 -------------------*/
@@ -456,12 +480,22 @@ header {
   margin-top: 2px;
   margin-bottom: 2px;
 }
-
+.search-header {
+  position: absolute;
+  top: 10px;
+  left: 800px;
+  max-width: 900px;
+  display: inline-block;
+}
+.menu {
+  display: none;
+  width: 15%;
+}
 
 /*footer*/
 .container_footer {
   display: flex;
-  background: #FF6D05;
+  background: #2D3037;
   color: #FFFFFF;
   line-height: 150%;
   border-radius: 6px;
@@ -482,7 +516,7 @@ header {
 }
 ul.footer_visit {
   color: white;
-  font-family: Montserrat-semibold, Verdana, sans-serif;
+  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
   font-size: 15px;
   width: 300px;
   padding: 5px;
@@ -503,11 +537,10 @@ ul.footer_visit {
   margin-left: 80px;
 }
 .number {
-margin-left: 30px;
-margin-top: 50px;
-font-family: 'Playfair Display-black', Times, serif;
-font-size: 18px;
-width: 200px;
+  margin-left: 30px;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
+  font-size: 18px;
+  width: 200px;
 }
 .top {
   color: white;
@@ -537,19 +570,34 @@ a:hover {
 
 /* Navigations
 -------------------*/
-nav ul li a {
+nav li a {
   color: white;
-  font-family: Montserrat-semibold, Verdana, sans-serif;
+  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
   font-weight: bold;
+  width: 20%;
+  text-decoration: none;
+  margin-right: 75px;
+  margin-left: 5px;
+  padding: 3px;
 }
 li {
-    display: inline;
-    margin: 15px 22px;
+  display: inline;
 }
-nav a:visited {
-  color: #2D3037;
+nav ul li a:link {
+  color: white;
 }
-
+nav ul li a:visited {
+  color: white;
+}
+nav ul li a:hover {
+  color: black;
+}
+nav ul li a:focus {
+  color: #FF6D05;
+}
+nav ul li a:active {
+  color: #FF6D05;
+}
 
 /* Images
 ----------*/
@@ -561,10 +609,9 @@ nav a:visited {
   width: 5%;
   margin: 0px 455px;
 }
-.col3 img {
-  width: 98%;
-  margin-top: 3px;
-  padding: 6px;
+.col1 img, .col2 img {
+  border: 2px solid #2D3037;
+  width: 99%;
 }
 .museum {
   width: 100%;
@@ -715,7 +762,7 @@ input[type="text"] {
   width: 100%;
   height: 50%;
   text-transform: uppercase;
-  font-family: Montserrat-semibold, Verdana, sans-serif;
+  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
   font-weight: bold;
   font-size: 15px;
   color: white;
@@ -770,12 +817,14 @@ a.action {
   width: 230px;
   text-align: center;
   font-size: 20px;
+  font-family: 'Playfair Display-black', 'Times', 'serif';
   color: white;
   background-color: #FF6D05;
   cursor: pointer;
-  padding: 5px;
-  margin-top: 20px;
-  margin-left: 220px;
+  padding: 10px;
+  position: absolute;
+  top: 1060px;
+  left: 870px;
   border-radius: 6px;
 }
 
@@ -805,7 +854,17 @@ a.action {
   .container_1_support, .container_1_involved, .container_1_internships   {
   flex-direction: column;
 }
-
+.menu {
+  display: inline-block;
+  width: 15%;
+  color: white;
+  position: relative;
+  top: 1px;
+  left: 285px;
+}
+nav li a {
+  display: none;
+}
 /* Action button */
 
 
