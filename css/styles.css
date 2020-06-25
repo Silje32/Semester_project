@@ -128,10 +128,10 @@ h3 {
 }
 .heading_find {
   font-family: 'Playfair Display-black', 'Times', 'serif';
-  text-align: left;
-  float: left;
+  position: absolute;
+  top: 2693px;
+  left: 250px;
   display: inline;
-  margin-left: 30px;
   color: #FF6D05;
 }
 .heading_involved {
@@ -615,6 +615,9 @@ nav ul li a:active {
   border: 2px solid #2D3037;
   width: 99%;
 }
+.col1 img {
+  margin-top: 40px;
+}
 .museum {
   width: 100%;
   margin: 10px 5px;
@@ -639,27 +642,27 @@ nav ul li a:active {
 }
 .facebook {
   width: 4%;
-  float: left;
-  margin-top: 15px;
-  margin-left: 150px;
+  position: absolute;
+  top: 2699px;
+  left: 500px;
 }
 .instagram {
   width: 4%;
-  float: left;
-  margin-top: 15px;
-  margin-left: 100px;
+  position: absolute;
+  top: 2699px;
+  left: 650px;
 }
 .youtube {
   width: 4%;
-  float: left;
-  margin-top: 15px;
-  margin-left: 100px;
+  position: absolute;
+  top: 2699px;
+  left: 800px;
 }
 .snapchat {
   width: 4%;
-  float: left;
-  margin-top: 15px;
-  margin-left: 100px;
+  position: absolute;
+  top: 2699px;
+  left: 950px;
 }
 .owls {
   width: 20%;
@@ -974,6 +977,14 @@ nav  {
   width: 100%;
   margin: 5px;
 }
+.col1_follow {
+  flex: 1;
+  width: 100%;
+  background: white;
+  margin-top: 5px;
+  border-radius: 6px;
+}
+
 /* Action button */
 a.action {
   display: inline-block;
@@ -1037,10 +1048,52 @@ header {
   border: 2px solid #2D3037;
   width: 99%;
 }
+.col1 img {
+  margin-top: 40px;
+}
+
 /* Image on Index page */
 .exhibition {
   width: 99%;
   margin: 10px;
+}
+.col1_follow {
+  flex: 1;
+  width: 93%;
+  background: white;
+  margin-top: 5px;
+  border-radius: 6px;
+}
+.heading_find {
+  font-family: 'Playfair Display-black', 'Times', 'serif';
+  position: absolute;
+  top: 2693px;
+  left: 250px;
+  display: inline;
+}
+.facebook {
+  width: 4%;
+  position: absolute;
+  top: 2699px;
+  left: 500px;
+}
+.instagram {
+  width: 4%;
+  position: absolute;
+  top: 2699px;
+  left: 650px;
+}
+.youtube {
+  width: 4%;
+  position: absolute;
+  top: 2699px;
+  left: 800px;
+}
+.snapchat {
+  width: 4%;
+  position: absolute;
+  top: 2699px;
+  left: 950px;
 }
 
 /* Action button */
