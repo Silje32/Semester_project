@@ -128,11 +128,11 @@ h3 {
 }
 .heading_find {
   font-family: 'Playfair Display-black', 'Times', 'serif';
-  position: absolute;
-  top: 2693px;
-  left: 250px;
   display: inline;
   color: #FF6D05;
+  position: relative;
+  top: 15px;
+  left: 60px;
 }
 .heading_involved {
   text-align: center;
@@ -589,7 +589,7 @@ nav ul li a:visited {
   color: white;
 }
 nav ul li a:hover {
-  color: black;
+  color: #D99A9A;
 }
 nav ul li a:focus {
   color: #FF6D05;
@@ -642,27 +642,27 @@ nav ul li a:active {
 }
 .facebook {
   width: 4%;
-  position: absolute;
-  top: 2699px;
-  left: 500px;
+  position: relative;
+  top: 15px;
+  left: 150px;
 }
 .instagram {
   width: 4%;
-  position: absolute;
-  top: 2699px;
-  left: 650px;
+  position: relative;
+  top: 15px;
+  left: 300px;
 }
 .youtube {
   width: 4%;
-  position: absolute;
-  top: 2699px;
-  left: 800px;
+  position: relative;
+  top: 15px;
+  left: 450px;
 }
 .snapchat {
   width: 4%;
-  position: absolute;
-  top: 2699px;
-  left: 950px;
+  position: relative;
+  top: 15px;
+  left: 600px;
 }
 .owls {
   width: 20%;
@@ -861,21 +861,19 @@ header {
   max-width: 600px;
   display: inline-block;
 }
+nav li a {
+  width: 15%;
+}
 nav li {
-  display: none;
+  display: inline-block;
 }
 .menu {
-  display: inline-block;
-  width: 15%;
-  color: white;
-  position: relative;
-  top: 1px;
-  left: 285px;
+  display: none;
 }
 .logo {
   width: 10%;
   position: relative;
-  top: 50px;
+  top: 35px;
   left: 10px;
   display: block;
 }
@@ -883,7 +881,7 @@ nav li {
   font-size: 35px;
   color: #FF6D05;
   position: absolute;
-  top: 70px;
+  top: 55px;
   left: 125px;
   display: block;
 }
@@ -925,12 +923,9 @@ header {
   margin-bottom: 1px;
 }
 .menu {
-  display: inline-block;
+  display: inline;
   width: 15%;
   color: white;
-  position: relative;
-  top: 1px;
-  left: 285px;
 }
 nav  {
   display: none;
@@ -950,11 +945,7 @@ nav  {
   display: inline;
 }
 .search-header {
-  position: absolute;
-  top: 10px;
-  left: 250px;
-  max-width: 600px;
-  display: inline-block;
+  display: none;
 }
 .text {
   max-width: 900px;
@@ -983,6 +974,29 @@ nav  {
   background: white;
   margin-top: 5px;
   border-radius: 6px;
+}
+.heading_find {
+  display: none;
+}
+.facebook {
+  width: 10%;
+  position: relative;
+  left: 50px;
+}
+.instagram {
+  width: 10%;
+  position: relative;
+  left: 100px;
+}
+.youtube {
+  width: 10%;
+  position: relative;
+  left: 150px;
+}
+.snapchat {
+  width: 10%;
+  position: relative;
+  left: 200px;
 }
 
 /* Action button */
@@ -1034,6 +1048,12 @@ header {
   max-width: 900px;
   display: inline-block;
 }
+nav li a {
+  width: 20%;
+  margin-right: 75px;
+  margin-left: 5px;
+  padding: 3px;
+}
 .text {
   max-width: 800px;
   margin-left: 100px;
@@ -1065,35 +1085,34 @@ header {
   border-radius: 6px;
 }
 .heading_find {
-  font-family: 'Playfair Display-black', 'Times', 'serif';
-  position: absolute;
-  top: 2693px;
-  left: 250px;
   display: inline;
+  position: relative;
+  top: 15px;
+  left: 60px;
 }
 .facebook {
   width: 4%;
-  position: absolute;
-  top: 2699px;
-  left: 500px;
+  position: relative;
+  top: 15px;
+  left: 150px;
 }
 .instagram {
   width: 4%;
-  position: absolute;
-  top: 2699px;
-  left: 650px;
+  position: relative;
+  top: 15px;
+  left: 300px;
 }
 .youtube {
   width: 4%;
-  position: absolute;
-  top: 2699px;
-  left: 800px;
+  position: relative;
+  top: 15px;
+  left: 450px;
 }
 .snapchat {
   width: 4%;
-  position: absolute;
-  top: 2699px;
-  left: 950px;
+  position: relative;
+  top: 15px;
+  left: 600px;
 }
 
 /* Action button */
