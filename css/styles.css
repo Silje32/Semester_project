@@ -578,9 +578,9 @@ nav li a {
   font-weight: bold;
   width: 20%;
   text-decoration: none;
-  margin-right: 75px;
-  margin-left: 5px;
-  padding: 3px;
+  margin-right: 70px;
+  margin-left: 2px;
+  padding: 2px;
 }
 nav li {
   display: inline;
@@ -850,7 +850,7 @@ a.action {
   flex-direction: column;
 }
 body {
-  max-width: 100%;
+  width: 100%;
 }
 header {
   height: 110px;
@@ -866,9 +866,9 @@ header {
 }
 nav li a {
   width: 15%;
-  margin-right: 5px;
-  margin-left: 10px;
-  padding: 9px;
+  margin-right: 1px;
+  margin-left: 1px;
+  padding: 14px;
 }
 nav li {
   display: inline-block;
@@ -1008,7 +1008,7 @@ a.action {
   flex-direction: column;
 }
 body {
-  max-width: 100%;
+  width: 320px;
 }
 header {
   height: 70px;
@@ -1024,7 +1024,7 @@ header {
   width: 10%;
   color: white;
   position: relative;
-  bottom: 60px;
+  bottom: 70px;
   left: 335px;
 }
 .mobile-nav {
@@ -1173,7 +1173,7 @@ nav li  {
   display: inline;
 }
 body {
-  max-width: 1024px;
+  width: 80%;
 }
 header {
   height: 120px;
@@ -1204,9 +1204,9 @@ header {
 }
 nav li a {
   width: 20%;
-  margin-right: 75px;
-  margin-left: 5px;
-  padding: 3px;
+  margin-right: 70px;
+  margin-left: 2px;
+  padding: 2px;
 }
 .text {
   max-width: 800px;
