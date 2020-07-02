@@ -61,6 +61,7 @@ h3 {
 }
 .heading {
   text-align: center;
+  font-size: 30px;
 }
 .heading1_exhibitions {
   text-align: center;
@@ -162,10 +163,7 @@ h3 {
 .container_1_kids, .container_2_kids  {
   display: flex;
 }
-.container_1 {
-  margin-bottom: 10px;
-}
-.container_2 {
+.container_1, .container_2  {
   margin-bottom: 10px;
 }
 .container_3 {
@@ -181,7 +179,6 @@ h3 {
   margin-bottom: 8px;
 }
 .container_shop {
-  margin-left: 5px;
 }
 .container_1_support {
   margin: 10px 10px;
@@ -207,10 +204,8 @@ h3 {
   margin-left: 15px;
 }
 .container_1_exhibitions {
-  margin: 10px 10px;
 }
 .container_2_exhibitions {
-  margin: 10px 10px;
 }
 .container_1_kids {
   margin: 10px 10px;
@@ -224,6 +219,9 @@ h3 {
 -------------------*/
 .col1, .col2, .col3, .col1_follow, .col2_facebook, .col3_instagram, .col4_youtube, .col5_snapchat {
   flex: 1;
+}
+.col1 {
+  height: 1100px;
 }
 .col1, .col2 {
   background: #D99A9A;
@@ -248,19 +246,11 @@ h3 {
   margin-left: 4px;
   padding: 10px;
 }
-.col1_food {
+.col1_food, .col2_shop {
   flex: 1;
-  background: #2D3037;
-  padding: 15px 15px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.col1_shop {
-  flex: 1;
-  background: #2D3037;
   width: 40%;
+  background: #2D3037;
   padding: 15px 15px;
-  margin-right: 10px;
 }
 .col_1_contact {
   flex: 1;
@@ -299,12 +289,14 @@ h3 {
 .col1_exhibitions {
   flex: 1;
   width: 99%;
-  background: #2D3037;
+  background: #D99A9A;
+  border: solid #2D3037;
   padding: 15px;
   margin-top: 15px;
 }
 .col2_exhibitions {
   flex: 1;
+  width: 99%;
   border: solid #D99A9A;
   background: #2D3037;
   padding: 40px;
@@ -344,7 +336,7 @@ h3 {
   margin-bottom: 6px;
   padding: 20px 20px;
 }
-.col1_times {
+.col2_times {
   flex: 1;
   background: #2D3037;
 }
@@ -809,10 +801,8 @@ a.action {
   background-color: #FF6D05;
   cursor: pointer;
   padding: 10px;
-  position: absolute;
-  top: 1060px;
-  left: 860px;
   border-radius: 6px;
+  margin-left: 680px;
 }
 
 
@@ -823,7 +813,7 @@ a.action {
 /*tablet styles*/
 @media only screen and (min-width: 481px)and (max-width: 768px) {
 .container_1, .container_2, .container_1_exhibitions,
-.container_2_exhibitions,  .container_visit, .container_location,
+.container_2_exhibitions,  .container_visit, .col1_food, .col2_shop, .container_location,
 .container_1_kids, .container_2_kids, .container2_contact,
 .container_1_support, .container_1_involved, .container_1_internships {
   flex-direction: column;
@@ -833,7 +823,7 @@ body {
 }
 header {
   height: 110px;
-  width: 100%;
+  width: 94%;
   margin-bottom: 1px;
 }
 .search-header {
@@ -847,7 +837,7 @@ nav li a {
   width: 15%;
   margin-right: 1px;
   margin-left: 1px;
-  padding: 14px;
+  padding: 12px;
 }
 nav li {
   display: inline-block;
@@ -876,12 +866,36 @@ nav li {
   margin-bottom: 120px;
 }
 .exhibition {
-  width: 100%;
+  width: 98%;
   margin-top: 1px;
+}
+.col1_exhibitions {
+  flex: 1;
+  width: 94%;
+  background: #D99A9A;
+  padding: 15px;
+  margin-top: 15px;
+  border: solid #2D3037;
+}
+.col2_exhibitions {
+  flex: 1;
+  width: 87%;
+  border: solid #D99A9A;
+  background: #2D3037;
+  padding: 40px;
+  margin-top: 15px;
+}
+.museum {
+  width: 98%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.col1_food, .col2_shop  {
+
 }
 .container_3 {
   height: 100px;
-  width: 100%;
+  width: 99%;
   margin-top: 2px;
   margin-bottom: 2px;
 }
@@ -905,7 +919,7 @@ nav li {
 }
 .col1, .col2 {
   padding: 5px 5px;
-  max-width: 100%;
+  max-width: 98%;
 }
 .col1 img, .col2 img {
   border: 2px solid white;
@@ -915,41 +929,44 @@ nav li {
   display: none;
 }
 .container_footer {
-  width: 100%;
+  width: 99%;
   height: 230px;
 }
 .col1_footer, .col2_footer, .col3_footer {
   flex: 1;
   padding: 10px;
 }
-.footer_visit {
-  width: 50%;
-  display: inline;
-  line-height: 150%;
-}
 .col1_footer img, .col2_footer img {
   width: 40px;
+}
+.col1_footer img {
+  margin-left: 80px;
 }
 .col3_footer a {
   width: 115px;
   position: relative;
   top: 40px;
-  left: 1px;
+  right: 30px;
   display: inline-block;
 }
 .col3_footer a:visited {
   color: #FF6D05;
 }
+.footer_visit {
+  display: inline;
+  width: 800px;
+  line-height: 150%;
+  position: relative;
+  top: 10px;
+  left: 60px;
+}
 .footer_visit ul li {
   font-size: 15px;
-  width: 450px;
   padding: 4px;
-  position: relative;
-  top: 20px;
-  left: 60px;
 }
 .number {
   width: 250px;
+  margin-left: 60px;
 }
 /* Action button */
 a.action {
@@ -957,9 +974,8 @@ a.action {
   width: 240px;
   font-size: 20px;
   padding: 25px;
-  position: absolute;
-  top: 970px;
-  left: 250px;
+  position: relative;
+  margin-left: 250px;
 }
 }
 
@@ -968,14 +984,15 @@ a.action {
 .container_1, .container_2, .container_3, .container_1_exhibitions,
 .container_2_exhibitions,  .container_visit, .container_location,
 .container_1_kids, .container_2_kids, .container2_contact,
-.container_1_support, .container_1_involved, .container_1_internships   {
+.container_1_support, .container_1_involved, .container_1_internships,
+.container_footer {
   flex-direction: column;
 }
 body {
   width: 320px;
 }
 header {
-  height: 70px;
+  height: 60px;
   width: 90%;
   margin-bottom: 1px;
   border-radius: none;
@@ -1018,6 +1035,13 @@ nav  {
   max-width: 900px;
   margin-left: 20px;
   margin-bottom: 10px;
+}
+.heading {
+  text-align: center;
+  font-size: 20px;
+}
+.col1 {
+  height: 800px;
 }
 .col1, .col2 {
   background: #D99A9A;
@@ -1083,15 +1107,8 @@ nav  {
   bottom: 100px;
   left: 70px;
 }
-.col3_footer {
-  position: relative;
-  bottom: 130px;
-  left: 20px;
-}
 .col3_footer a {
   width: 150px;
-  margin-right: 5px;
-  margin-top: 120px;
   display: inline-block;
 }
 .col3_footer a:hover {
@@ -1106,6 +1123,7 @@ a.action {
   width: 230px;
   font-size: 20px;
   padding: 20px;
+  margin-left: 20px;
 }
 }
 
@@ -1158,6 +1176,13 @@ nav li a {
   margin-left: 100px;
   margin-bottom: 60px;
 }
+.heading {
+  text-align: center;
+  font-size: 30px;
+}
+.col1 {
+  height: 1100px;
+}
 .col1, .col2 {
   background: #D99A9A;
   padding: 10px 10px;
@@ -1176,6 +1201,32 @@ nav li a {
 .exhibition {
   width: 99%;
   margin: 10px;
+}
+.col1_exhibitions {
+  flex: 1;
+  width: 99%;
+  background: #D99A9A;
+  padding: 15px;
+  margin-top: 15px;
+  border: solid #2D3037;
+}
+.col2_exhibitions {
+  flex: 1;
+  width: 99%;
+  border: solid #D99A9A;
+  background: #2D3037;
+  padding: 40px;
+  margin-top: 15px;
+}
+.museum {
+  width: 100%;
+  margin: 10px 5px;
+}
+.col1_food, .col2_shop {
+  flex: 1;
+  width: 40%;
+  background: #2D3037;
+  padding: 15px 15px;
 }
 .container_3 {
   height: 80px;
@@ -1215,10 +1266,8 @@ a.action {
   background-color: #FF6D05;
   cursor: pointer;
   padding: 10px;
-  position: absolute;
-  top: 1060px;
-  left: 860px;
   border-radius: 6px;
+  margin-left: 680px;
 }
 .col1_footer, .col2_footer, .col3_footer {
   flex: 1;
