@@ -125,7 +125,8 @@ h3 {
   font-family: 'Playfair Display-black', 'Times', 'serif';
   font-size: 30px;
   width: 50px;
-  margin-left: 20px;
+  margin-left: 400px;
+  padding: 20px;
 }
 .heading_find {
   font-family: 'Playfair Display-black', 'Times', 'serif';
@@ -175,49 +176,50 @@ h3 {
 }
 .container_location {
   margin-top: 8px;
-  margin-left: 4px;
   margin-bottom: 8px;
+  background: #D99A9A;
 }
 .container_shop {
+  background: #2D3037;
+  width: 100%;
 }
 .container_1_support {
-  margin: 10px 10px;
-  margin-left: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .container_1_internships {
   margin-bottom: 10px;
-  margin: 10px 10px;
-  margin-left: 15px;
+  margin-top: 10px;
 }
 .container1_contact {
-  margin-left: 5px;
   margin-top: 8px;
   background: #2D3037;
-  color: #FFFFFF;
-  border: solid #D99A9A;
 }
 .container2_contact {
   margin-left: 6px;
 }
 .container_1_involved {
-  margin: 10px 10px;
-  margin-left: 15px;
-}
-.container_1_exhibitions {
-}
-.container_2_exhibitions {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .container_1_kids {
-  margin: 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 .container_2_kids {
   margin-bottom: 15px;
-  margin: 10px 10px;
+  margin-top: 10px;
+  width: 100%;
 }
 
 /* Columns
 -------------------*/
-.col1, .col2, .col3, .col1_follow, .col2_facebook, .col3_instagram, .col4_youtube, .col5_snapchat {
+.col1, .col2, .col3, .col1_visit, .col2_visit, .col1_food, .col2_shop, .col_contact,
+.col_1_contact, .col1_contact, .col2_contact, .col1_exhibitions, .col2_exhibitions,
+.col1_times, .col1_involved, .col2_involved, .col1_internships, .col1_support, .col2_times,
+.col1_involved, .col1_internships, .col1_follow, .col1_kids, .col2_kids,
+.col2_facebook, .col3_instagram, .col4_youtube, .col5_snapchat {
   flex: 1;
 }
 .col1 {
@@ -233,27 +235,20 @@ h3 {
   background: #2D3037;
 }
 .col1_visit {
-  flex: 1;
-  background: #2D3037;
+  background: #D99A9A;
   margin-right: 7px;
   margin-left: 4px;
   padding: 10px;
 }
 .col2_visit {
-  flex: 1;
-  background: #2D3037;
-  margin-right: 7px;
-  margin-left: 4px;
-  padding: 10px;
+  background: #D99A9A;
 }
 .col1_food, .col2_shop {
-  flex: 1;
   width: 40%;
   background: #2D3037;
   padding: 15px 15px;
 }
 .col_1_contact {
-  flex: 1;
   margin-top: 100px;
 }
 .col_2_contact {
@@ -263,31 +258,23 @@ h3 {
   flex: 3;
   margin-top: 100px;
 }
-.col_4_contact {
-  flex: 4;
-  margin-top: 100px;
-}
 .col_contact {
-  flex: 1;
   background: #2D3037;
   border: solid #D99A9A;
 }
 .col1_contact {
-  flex: 1;
   border: solid #D99A9A;
   background: #2D3037;
   padding: 10px;
   margin-top: 15px;
 }
 .col2_contact {
-  flex: 1;
   background: #2D3037;
   padding: 15px;
   margin-top: 15px;
   margin-left: 10px;
 }
 .col1_exhibitions {
-  flex: 1;
   width: 99%;
   background: #D99A9A;
   border: solid #2D3037;
@@ -295,88 +282,59 @@ h3 {
   margin-top: 15px;
 }
 .col2_exhibitions {
-  flex: 1;
   width: 99%;
   border: solid #D99A9A;
   background: #2D3037;
   padding: 40px;
   margin-top: 15px;
 }
-.col1_support {
-  flex: 1;
-  background: #2D3037;
-  margin-bottom: 6px;
-  padding: 20px 20px;
-}
 .col1_times {
-  flex: 1;
   background: #2D3037;
 }
 .col1_involved {
-  flex: 1;
   background: #2D3037;
   margin-right: 8px;
   padding: 20px 20px;
 }
 .col2_involved {
-  flex: 1;
   background: #2D3037;
   padding: 20px 20px;
 }
 .col1_internships {
-  flex: 1;
   background: #2D3037;
-  margin-right: 8px;
   margin-top: 8px;
   padding: 10px 10px;
 }
 .col1_support {
-  flex: 1;
-  background: #2D3037;
+  background: #D99A9A;
   margin-bottom: 6px;
   padding: 20px 20px;
 }
 .col2_times {
-  flex: 1;
-  background: #2D3037;
+  background: #D99A9A;
+  width: 40%;
 }
 .col1_involved {
-  flex: 1;
   background: #2D3037;
   margin-right: 8px;
   padding: 20px 20px;
 }
-.col2_involved {
-  flex: 1;
-  background: #2D3037;
-  padding: 20px 20px;
-}
 .col1_internships {
-  flex: 1;
   background: #2D3037;
   margin-right: 8px;
   margin-top: 8px;
   padding: 10px 10px;
 }
 .col1_follow {
-  flex: 1;
   width: 93%;
   background: white;
   margin-top: 5px;
   border-radius: 6px;
 }
-.col1_kids {
-  flex: 1;
+.col1_kids, .col2_kids {
+  width: 100%;
   background: #2D3037;
   padding: 10px;
-  margin-left: 6px;
-}
-.col2_kids {
-  flex: 1;
-  width: 45%;
-  background: #2D3037;
-  padding: 10px;
-  margin-left: 6px;
 }
 main section p a {
   color: #D99A9A;
@@ -385,10 +343,10 @@ ul.times {
   color: white;
   font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
   width: 250px;
-  float: left;
-  margin-left: 80px;
+  margin-left: 120px;
   margin-top: 5px;
   padding: 15px;
+  line-height: 150%;
 }
 ul.visit {
   color: white;
@@ -400,28 +358,34 @@ ul.visit {
   text-align: center;
 }
 .col2_kids img p a:link {
-  color: #D99A9A;
+  color: #FF6D05;
 }
 .touch {
   color: #D99A9A;
 }
-ul.info1 {
+ul.info1, ul.info2, ul.info3  {
   color: white;
   font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
+}
+ul.info1 {
+  font-size: 18px;
   width: 250px;
-  float: left;
+  position: relative;
+  bottom: 30px;
 }
 ul.info2 {
-  color: white;
-  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
+  font-size: 18px;
   width: 300px;
-  float: left;
+  position: relative;
+  top: 55px;
+  left: 10px;
 }
 ul.info3 {
-  color: white;
-  font-family: 'Montserrat-semibold', 'Verdana', 'sans-serif';
+  font-size: 18px;
   width: 300px;
-  float: left;
+  position: relative;
+  bottom: 60px;
+  left: 125px;
 }
 .food {
   margin-left: 6px;
@@ -429,15 +393,21 @@ ul.info3 {
   padding: 5px;
 }
 .map {
-  margin-left: 185px;
-  margin-top: 10px;
+  position: relative;
+  left: 200px;
   visibility: visible;
   display: block;
 }
 .accessibility {
   text-align: center;
 }
-.entrance a {
+.entrance a:link {
+  color: #FF6D05;
+}
+.entrance a:visited {
+  color: #D99A9A;
+}
+.entrance a:hover {
   color: #D99A9A;
 }
 .text {
@@ -528,9 +498,10 @@ header {
 }
 .col3_footer a {
   width: 150px;
-  margin-right: 5px;
-  margin-top: 120px;
   display: inline-block;
+  position: relative;
+  top: 130px;
+  left: 110px;
 }
 .col3_footer a:hover {
   color: #D99A9A;
@@ -538,26 +509,18 @@ header {
 .col3_footer a:visited {
   color: #FF6D05;
 }
-.top {
-  color: white;
-  margin-left: 220px;
-  margin-top: 30px;
-}
 a:link{
   color: white;
   text-decoration: none;
 }
-.touch .entrance a:link {
+.touch a:link {
   color: #D99A9A;
 }
-.touch .entrance a:visited {
+.touch a:visited {
   color: #D99A9A;
 }
-.touch .entrance a:hover {
+.touch a:hover {
   color: #D99A9A;
-}
-a:hover {
-  color: #2D3037;
 }
 
 
@@ -617,8 +580,7 @@ nav ul li a:active {
   margin: 10px 5px;
 }
 .kids {
-  width: 99%;
-  margin: 8px;
+  width: 100%;
 }
 .club {
   width: 25%;
@@ -654,20 +616,23 @@ nav ul li a:active {
   margin-left: 20px;
   margin-top: 40px;
 }
-.house {
+.house, .letter, .mobile {
   width: 25%;
-  float: left;
-  margin-left: 25px;
+}
+.house {
+  position: relative;
+  bottom: 50px;
+  left: 70px;
 }
 .letter {
-  width: 25%;
-  float: left;
-  margin-left: 25px;
+  position: relative;
+  top: 45px;
+  left: 150px;
 }
 .mobile {
-  width: 25%;
-  float: left;
-  margin-left: 25px;
+  position: relative;
+  bottom: 50px;
+  left: 160px;
 }
 .teacher {
   width: 50%;
@@ -813,7 +778,7 @@ a.action {
 /*tablet styles*/
 @media only screen and (min-width: 481px)and (max-width: 768px) {
 .container_1, .container_2, .container_1_exhibitions,
-.container_2_exhibitions,  .container_visit, .col1_food, .col2_shop, .container_location,
+.container_2_exhibitions,  .container_visit, .container_shop, .container_location,
 .container_1_kids, .container_2_kids, .container2_contact,
 .container_1_support, .container_1_involved, .container_1_internships {
   flex-direction: column;
@@ -860,6 +825,12 @@ nav li {
   left: 125px;
   display: block;
 }
+.heading_times {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-left: 280px;
+}
 .text {
   max-width: 900px;
   margin-left: 20px;
@@ -890,8 +861,110 @@ nav li {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.col2_visit {
+  flex: 1;
+  background: #2D3037;
+}
+.col2_times {
+  flex: 1;
+  background: #2D3037;
+  width: 99%;
+  margin-left: 200px;
+}
+ul.times {
+  width: 250px;
+  margin-left: 300px;
+  margin-top: 5px;
+  padding: 15px;
+  line-height: 150%;
+}
+.map {
+  position: relative;
+  left: 105px;
+  visibility: visible;
+  display: block;
+}
 .col1_food, .col2_shop  {
-
+  flex: 1;
+  width: 99%;
+  background: #2D3037;
+  padding: 5px 5px;
+}
+.cafe {
+  width: 80%;
+  margin-left: 70px;
+}
+.shop {
+  width: 80%;
+  margin-left: 70px;
+}
+.container_shop {
+  background: #2D3037;
+  width: 99%;
+}
+.container_shop {
+  background: #2D3037;
+  width: 99%;
+}
+.container_1_kids {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 99%;
+}
+.col1_kids, .col2_kids {
+  flex: 1;
+  width: 98%;
+  background: #2D3037;
+  padding: 10px;
+}
+.kids {
+  width: 99%;
+}
+.dino {
+  width: 25%;
+  margin-left: 500px;
+}
+.heading_contact {
+  margin-left: 300px;
+  padding: 20px;
+}
+.house, .letter, .mobile {
+  width: 25%;
+}
+.house  {
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+.letter {
+  position: relative;
+  top: 1px;
+  left: 70px;
+}
+.mobile {
+  position: relative;
+  bottom: 45px;
+  left: 40px;
+}
+ul.info1 {
+  font-size: 14px;
+  width: 250px;
+  position: relative;
+  bottom: 30px;
+}
+ul.info2 {
+  font-size: 14px;
+  width: 200px;
+  position: relative;
+  top: 80px;
+  left: 1px;
+}
+ul.info3 {
+  font-size: 14px;
+  width: 100px;
+  position: relative;
+  bottom: 1px;
+  left: 70px;
 }
 .container_3 {
   height: 100px;
@@ -945,8 +1018,8 @@ nav li {
 .col3_footer a {
   width: 115px;
   position: relative;
-  top: 40px;
-  right: 30px;
+  top: 150px;
+  right: 10px;
   display: inline-block;
 }
 .col3_footer a:visited {
@@ -1158,6 +1231,11 @@ header {
   left: 290px;
   display: inline-block;
 }
+.heading_times {
+  font-size: 25px;
+  margin-top: 80px;
+  margin-left: 113px;
+}
 .search-header {
   position: absolute;
   top: 10px;
@@ -1222,11 +1300,110 @@ nav li a {
   width: 100%;
   margin: 10px 5px;
 }
+.col2_visit {
+  flex: 1;
+  background: #2D3037;
+}
+.col2_times {
+  flex: 1;
+  background: #D99A9A;
+  width: 40%;
+}
+ul.times {
+  width: 250px;
+  margin-left: 120px;
+  margin-top: 5px;
+  padding: 15px;
+  line-height: 150%;
+}
+.map {
+  position: relative;
+  left: 200px;
+  visibility: visible;
+  display: block;
+}
 .col1_food, .col2_shop {
   flex: 1;
   width: 40%;
   background: #2D3037;
   padding: 15px 15px;
+}
+.cafe {
+  width: 60%;
+  margin-left: 95px;
+}
+.shop {
+  width: 50%;
+  margin-left: 110px;
+}
+.kids {
+  width: 100%;
+}
+.container_shop {
+  background: #2D3037;
+  width: 100%;
+}
+.container_1_kids {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.container_2_kids {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 100%;
+}
+.col1_kids, .col2_kids {
+  flex: 1;
+  width: 100%;
+  background: #2D3037;
+  padding: 10px;
+}
+.dino {
+  width: 20%;
+  margin-left: 700px;
+}
+.heading_contact {
+  margin-left: 400px;
+  padding: 20px;
+}
+.house, .letter, .mobile {
+  width: 25%;
+}
+.house  {
+  position: relative;
+  bottom: 50px;
+  left: 70px;
+}
+.letter {
+  position: relative;
+  top: 45px;
+  left: 150px;
+}
+.mobile {
+  position: relative;
+  bottom: 50px;
+  left: 160px;
+}
+ul.info1 {
+  font-size: 18px;
+  width: 250px;
+  position: relative;
+  bottom: 30px;
+}
+ul.info2 {
+  font-size: 18px;
+  width: 300px;
+  position: relative;
+  top: 55px;
+  left: 10px;
+}
+ul.info3 {
+  font-size: 18px;
+  width: 300px;
+  position: relative;
+  bottom: 60px;
+  left: 125px;
 }
 .container_3 {
   height: 80px;
@@ -1298,9 +1475,10 @@ a.action {
 }
 .col3_footer a {
   width: 150px;
-  margin-right: 5px;
-  margin-top: 120px;
   display: inline-block;
+  position: relative;
+  top: 130px;
+  left: 110px;
 }
 .col3_footer a:hover {
   color: #D99A9A;
