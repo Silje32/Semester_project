@@ -197,9 +197,6 @@ h3 {
   background: #2D3037;
   height: 300px;
 }
-.container2_contact {
-  margin-left: 6px;
-}
 .container_1_involved {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -239,14 +236,19 @@ h3 {
 .col1_visit {
   background: #D99A9A;
   padding: 10px;
+  width: 40%;
 }
 .col2_visit {
   background: #D99A9A;
+  width: 97%;
 }
 .col1_food, .col2_shop {
   width: 40%;
   background: #2D3037;
   padding: 15px 15px;
+}
+.col2_shop  {
+  margin-left: 10px;
 }
 .col_1_contact, .col_3_contact {
   position: relative;
@@ -274,7 +276,7 @@ h3 {
   padding: 15px;
   margin-top: 15px;
   margin-left: 10px;
-  width: 100%;
+  width: 40%;
 }
 .col1_exhibitions {
   width: 99%;
@@ -315,6 +317,7 @@ h3 {
 .col2_times {
   background: #D99A9A;
   width: 40%;
+  margin-left: 10px;
 }
 .col1_involved {
   background: #2D3037;
@@ -876,15 +879,21 @@ nav li {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.col1_visit {
+  background: #D99A9A;
+  padding: 10px;
+  width: 97%;
+}
 .col2_visit {
   flex: 1;
   background: #2D3037;
+  width: 96%;
 }
 .col2_times {
   flex: 1;
   background: #2D3037;
   width: 99%;
-  margin-left: 200px;
+  margin-left: 1px;
 }
 ul.times {
   width: 250px;
@@ -986,13 +995,23 @@ ul.info3 {
   background: #2D3037;
   height: 200px;
 }
-.container2_contact {
-  margin-left: 0px;
+.col1_contact {
+  border: solid #D99A9A;
+  background: #2D3037;
+  padding: 10px;
+  margin-top: 15px;
+  width: 96%;
 }
 .col2_contact {
   background: #2D3037;
   margin-top: 15px;
   width: 95%;
+  margin-left: 1px;
+}
+.teacher {
+  width: 60%;
+  position: relative;
+  left: 125px;
 }
 .container_3 {
   height: 100px;
@@ -1205,7 +1224,7 @@ nav  {
 }
 .col1_visit {
   background: #2D3037;
-  padding: 10px;
+  width: 94%;
 }
 .col2_visit {
   background: #2D3037;
@@ -1232,7 +1251,8 @@ ul.times {
 .col2_times {
   flex: 1;
   background: #D99A9A;
-  width: 100%;
+  width: 99%;
+  margin-left: 1px;
 }
 ul.visit {
   width: 250px;
@@ -1254,6 +1274,7 @@ ul.visit {
 .col1_food, .col2_shop {
   width: 90%;
   background: #2D3037;
+  padding: 2px 2px;
 }
 .col1_kids, .col2_kids {
   width: 95%;
@@ -1318,13 +1339,17 @@ ul.info3 {
   top: -135px;
   left: -6px;
 }
-.container2_contact {
-  margin-left: 1px;
+.col1_contact {
+  border: solid #D99A9A;
+  background: #2D3037;
+  margin-top: 15px;
+  width: 94%;
 }
 .col2_contact {
   background: #2D3037;
   margin-top: 15px;
-  width: 95%;
+  width: 93%;
+  margin-left: 1px;
 }
 input[type="text"] {
   width: 38%;
@@ -1350,6 +1375,12 @@ input[type="submit"] {
   width: 85%;
   position: relative;
   left: 20px;
+}
+.owls {
+  width: 90%;
+  float: left;
+  margin-right: 8px;
+  margin-left: 12px;
 }
 .container_3 {
   height: 330px;
@@ -1558,15 +1589,18 @@ nav li a {
 .col1_visit {
   background: #D99A9A;
   padding: 10px;
+  width: 40%;
 }
 .col2_visit {
   flex: 1;
   background: #2D3037;
+  width: 97%;
 }
 .col2_times {
   flex: 1;
   background: #D99A9A;
   width: 40%;
+  margin-left: 10px;
 }
 ul.times {
   width: 250px;
@@ -1586,6 +1620,9 @@ ul.times {
   width: 40%;
   background: #2D3037;
   padding: 15px 15px;
+}
+.col2_shop  {
+  margin-left: 10px;
 }
 .cafe {
   width: 60%;
@@ -1668,8 +1705,6 @@ ul.visit {
   position: relative;
   top: 100px;
 }
-.col_2_contact {
-}
 .house, .letter {
   width: 25%;
 }
@@ -1718,15 +1753,19 @@ ul.info3 {
   background: #2D3037;
   height: 300px;
 }
-.container2_contact {
-  margin-left: 6px;
+.col1_contact {
+  border: solid #D99A9A;
+  background: #2D3037;
+  padding: 10px;
+  margin-top: 15px;
+  width: 40%;
 }
 .col2_contact {
   background: #2D3037;
   padding: 15px;
   margin-top: 15px;
   margin-left: 10px;
-  width: 100%;
+  width: 40%;
 }
 input[type="text"] {
   width: 85%;
@@ -1752,6 +1791,12 @@ input[type="submit"] {
   width: 50%;
   position: relative;
   left: 115px;
+}
+.owls {
+  width: 20%;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 .container_3 {
   height: 80px;
