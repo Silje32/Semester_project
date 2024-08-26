@@ -161,7 +161,7 @@ h3 {
 -------------------*/
 .container_1, .container_2, .container_3, .container_visit, .container_location,
 .container_shop, .container_1_support, .container_1_internships, .container1_contact,
-.container2_contact, container-teacher, .container_1_involved, .container_1_exhibitions, .container_2_exhibitions,
+.container2_contact, .container-teacher, .container_1_involved, .container_1_exhibitions, .container_2_exhibitions,
 .container_1_kids, .container_2_kids  {
   display: flex;
 }
