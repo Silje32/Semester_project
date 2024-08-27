@@ -1104,13 +1104,16 @@ a.action {
   flex-direction: column;
 }
 body {
-  width: 320px;
+  width: 100%;
 }
 header {
   height: 60px;
   width: 90%;
   margin-bottom: 1px;
   border-radius: none;
+}
+nav  {
+  display: none;
 }
 .nav-menu {
   display: inline;
@@ -1125,9 +1128,6 @@ header {
 }
 .mobile-nav {
   display: inline-block;
-}
-nav  {
-  display: none;
 }
 .logo {
   width: 15%;
@@ -1455,11 +1455,11 @@ a.action {
 .menu, .nav-menu, .mobile-nav {
   display: none;
 }
+body {
+  width: 100%;
+}
 nav li  {
   display: inline;
-}
-body {
-  width: 80%;
 }
 header {
   height: 120px;
