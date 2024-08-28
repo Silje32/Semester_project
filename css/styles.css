@@ -1106,6 +1106,7 @@ a.action {
 }
 body {
   width: 100%;
+  max-width: 480px;
 }
 header {
   height: 60px;
