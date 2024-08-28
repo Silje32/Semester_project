@@ -1110,7 +1110,7 @@ body {
 }
 header {
   height: 60px;
-  width: 95%;
+  width: 90%;
   margin-bottom: 1px;
   border-radius: none;
 }
@@ -1126,7 +1126,7 @@ nav  {
   color: white;
   position: relative;
   bottom: 68px;
-  left: 259px;
+  left: 265px;
 }
 .mobile-nav {
   display: inline-block;
@@ -1340,12 +1340,12 @@ ul.info3 {
   border: solid #D99A9A;
   background: #2D3037;
   margin-top: 15px;
-  width: 95%;
+  width: 90%;
 }
 .col2_contact {
   background: #2D3037;
   margin-top: 15px;
-  width: 95%;
+  width: 90%;
   margin-left: 1px;
 }
 input[type="text"] {
@@ -1381,6 +1381,7 @@ input[type="submit"] {
 }
 .container_3 {
   height: 340px;
+  width: 90%;
 }
 .heading_find {
   display: none;
@@ -1405,7 +1406,7 @@ input[type="submit"] {
   margin-left: 150px;
 }
 .container_footer {
-  width: 100%;
+  width: 90%;
   height: 260px;
 }
 .footer_3 a:visited {
