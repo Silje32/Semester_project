@@ -798,6 +798,7 @@ a.action {
 }
 body {
   width: 100%;
+  max-width: 768px;
 }
 header {
   height: 110px;
