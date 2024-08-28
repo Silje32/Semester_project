@@ -793,7 +793,7 @@ a.action {
 .container_1, .container_2, .container_1_exhibitions,
 .container_2_exhibitions,  .container_visit, .container_shop, .container_location,
 .container_1_kids, .container_2_kids, .container2_contact,
-.container_1_support, .container_1_involved, .container_1_internships {
+.container_1_support, .container_1_involved, .container_1_internships, .container_3 {
   flex-direction: column;
 }
 body {
@@ -1385,6 +1385,7 @@ input[type="submit"] {
 }
 .col1_follow {
   flex: 1;
+
 }
 .col2_facebook {
   flex: 2;
