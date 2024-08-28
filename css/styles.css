@@ -269,14 +269,14 @@ h3 {
   background: #2D3037;
   padding: 10px;
   margin-top: 15px;
-  width: 50%;
+  width: 100%;
 }
 .col2_contact {
   background: #2D3037;
   padding: 15px;
   margin-top: 15px;
   margin-left: 10px;
-  width: 50%;
+  width: 100%;
 }
 .col1_exhibitions {
   width: 99%;
@@ -1753,14 +1753,14 @@ ul.info3 {
   background: #2D3037;
   padding: 10px;
   margin-top: 15px;
-  width: 50%;
+  width: 100%;
 }
 .col2_contact {
   background: #2D3037;
   padding: 15px;
   margin-top: 15px;
   margin-left: 10px;
-  width: 50%;
+  width: 100%;
 }
 input[type="text"] {
   width: 85%;
