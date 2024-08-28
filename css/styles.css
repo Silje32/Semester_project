@@ -1304,6 +1304,7 @@ ul.visit {
   margin-top: 8px;
   background: #2D3037;
   height: 300px;
+  width: 90%;
 }
 .col_1_contact {
   margin-top: 40px;
@@ -1345,8 +1346,7 @@ ul.info3 {
 .col2_contact {
   background: #2D3037;
   margin-top: 15px;
-  width: 85%;
-  margin-left: 1px;
+  width: 88%;
 }
 input[type="text"] {
   width: 38%;
